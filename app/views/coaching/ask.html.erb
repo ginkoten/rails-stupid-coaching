@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Speak to your coach</h1>
+
+  <form action="/answer" method="get">
+    <label for="question">Speak to your coach</label>
+    <input type="text" id="question" name="query" placeholder="what time is it?">
+    <input type="submit" value="Go on!">
+  </form>
+
+  <hr>
+  <%= link_to("Go to the list of answers", answer_path) %>
+
+</div>
